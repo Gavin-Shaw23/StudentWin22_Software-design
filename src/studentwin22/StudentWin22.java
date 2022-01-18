@@ -1,20 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package studentwin22;
 
-/**
- *
- * @author shawg
- */
 public class StudentWin22 {
+    public static void main(String [] args){
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+        Student[] studentList = new Student[3]; //creating an array 
+
+        studentList[0] = new Student ("S1","Ronak Sheth");
+        studentList[1] = new Student (" S2","Ben Dover");
+        studentList[2] = new Student (" S3","Joe Mama");
+
+        for (int i=0 ;i<studentList.length;i++){
+            System.out.print(studentList[i].getStudentId());
+            System.out.print("    ");
+            System.out.print(studentList[i].getStudentName());
+
+        }
     }
-    
 }
