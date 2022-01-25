@@ -1,5 +1,8 @@
 package studentwin22;
-
+/*
+Date: Jan 25th 2022
+Author: Gavin Shaw
+*/
 public class Student {    //creating a student class 
     //this class will have two 
     private String studentId;
