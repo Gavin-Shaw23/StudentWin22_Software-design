@@ -1,14 +1,39 @@
 package studentwin22;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+public class Student {    //creating a student class 
+    //this class will have two 
+    private String studentId;
+    private String studentName;
+    private String studentAddress;
+ 
+    public Student(String studentId,String studentName){  //this is the constructor
 
-/**
- *
- * @author shawg
- */
-public class Student {
-    
+        this.studentId=studentId;
+        this.studentName=studentName;
+    }
+
+    public String getStudentAddress() {
+        return studentAddress;
+    }
+
+    public void setStudentAddress(String studentAddress) {
+        this.studentAddress = studentAddress;
+    }
+
+    public String getStudentId() {
+        return studentId;
+    }
+
+    public String getStudentName() {
+        return studentName;
+    }
+
+    public void setStudentId(String studentId) {
+        this.studentId = studentId;
+    }
+
+    public void setStudentName(String studentName) {
+        this.studentName = studentName;
+    }
+
 }
