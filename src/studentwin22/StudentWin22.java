@@ -3,7 +3,7 @@ package studentwin22;
 public class StudentWin22 {
     public static void main(String [] args){
 
-        Student[] studentList = new Student[3]; //creating an array 
+        Student[] studentList = new Student[4]; //creating an array 
 
         studentList[0] = new Student ("S1","Ronak Sheth");
         studentList[1] = new Student (" S2","Ben Dover");
